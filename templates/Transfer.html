@@ -1,0 +1,11 @@
+{% block body %}
+<form name="Transfer"  method="post">
+    <p>转账</p>
+    <p>你的卡号:<input type="text" name="mycardnum"/></p>
+    <p>对方卡号:<input type="text" name="sbcardnum"/></p>
+    <p>金额:<input type="text" name="money"/></p>
+    <p><input type="submit" value="提交" name="submit"></p>
+    <p><input type="submit" value="返回" name="back"></p>
+    {{message}}
+</form>
+{% endblock %}

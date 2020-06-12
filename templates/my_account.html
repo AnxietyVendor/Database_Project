@@ -1,0 +1,11 @@
+{% block body %}
+<form name="my_account" method="post">
+    <p>银行</p>
+    <p>账户菜单</p>
+    <p><input type="submit" value="新建账户" name="new_account"/></p>
+    <p><input type="submit" value="注销账户" name="delete_account"/></p>
+    <p><input type="submit" value="登入账户" name="login_account"/></p>
+    <p><input type="submit" value="返回" name="back"/></p>
+    {{message}}
+</form>
+{% endblock %}

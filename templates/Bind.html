@@ -1,0 +1,11 @@
+{% block body %}
+<form name="Bind"  method="post">
+  <p>为账户绑定储蓄卡</p>
+  <p>卡号:<input type="text" name="cardnum" /></p>
+  <p>储蓄卡类型:<input type="text" name="cardtype"/></p>
+  <p><input type="submit" value="绑定" name="bind"/></p>
+  <p><input type="submit" value="解除绑定" name="unbind"/></p>
+  <p><input type="submit" value="返回" name="back"></p> 
+  {{message}}
+</form>
+{% endblock %}

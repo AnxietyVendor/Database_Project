@@ -1,0 +1,18 @@
+{% block body %}
+<form name="Register"  method="post">
+    <p>账号注册</p>
+    <p>身份证号:<input type="text" name="ID" value="请输入18位身份证号" /></p>
+    <p>姓名:<input type="text" name="username"/></p>
+    <p>联系方式:<input type="text" name="telephone"/></p>
+    <p>生日:<input type="text" name="birth" value="输入格式为 年-月-日" /></p>
+    <p>电子邮箱:<input type="text" name="email"/></p>
+    <p>密码: <input type="password" name="password1" /></p>
+    <p>再次输入密码: <input type="password" name="password2" /></p>
+    <p>性别: <input type="text" name="gender" /></p>
+    <p>邮编: <input type="text" name="postcode" value="请输入7位邮编" /></p>
+    <p>家庭住址: <input type="text" name="address" /></p>
+    <p>银行账户: <input type="text" name="account" value="请输入12位银行账号"/></p>
+    <p><input type="submit" value="确认" name="confirmed"/></p>
+    {{message}}
+  </form>
+  {% endblock %}

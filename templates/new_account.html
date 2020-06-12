@@ -1,0 +1,9 @@
+{% block body %}
+<form name="new_account"  method="post">
+  <p>开通新账户</p>
+  <p>账号:<input type="text" name="account"/></p>
+  <p><input type="submit" value="提交" name="submit"></p>
+  <p><input type="submit" value="返回" name="back"></p>
+  {{message}}
+</form>
+{% endblock %}

@@ -1,0 +1,10 @@
+{% block body %}
+<form name="Withdraw"  method="post">
+    <p>取钱</p>
+    <p>卡号:<input type="text" name="cardnum"/></p>
+    <p>金额:<input type="text" name="money"/></p>
+    <p><input type="submit" value="提交" name="submit"></p>
+    <p><input type="submit" value="返回" name="back"></p>
+    {{message}}
+</form>
+{% endblock %}

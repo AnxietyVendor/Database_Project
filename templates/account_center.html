@@ -1,0 +1,16 @@
+{% block body %}
+<form name="account_center" method="post">
+    <p>账户中心</p>
+    <p>主菜单</p>
+    <p><input type="submit" value="查看账户余额信息" name="Info" /></p>
+    <p><input type="submit" value="绑定/解绑储蓄卡" name="Bind" /></p>
+    <p><input type="submit" value="绑定/解绑两张储蓄卡" name="Bind2" /></p>
+    <p><input type="submit" value="存款" name="Deposit" /></p>
+    <p><input type="submit" value="取款" name="Withdraw" /></p>
+    <p><input type="submit" value="转账" name="Transfer" /></p>
+    <p><input type="submit" value="查看账户交易历史" name="History" /></p>
+    <p><input type="submit" value="查看账户利息" name="Interest" /></p>
+    <p><input type="submit" value="返回账户登录界面" name="exit"/></p>
+    {{message}}
+</form>
+{% endblock %}
